@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Front End Developer Assignment</title>
+        <!--Link to Google Fonts for Roboto-->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <!--Custom CSS-->
+        <link rel="stylesheet" href="./home.css">
+    </head>
+    <body>
+        <div class="container">
+            <!--To show blurred background when pop-up is open-->
+            <div id="modal-background"></div>
+            <div id="main-background-container">
+                <!--Main Background Image-->
+                <img src="./images/main_bg.jpg" style="width: 100%;">
+            </div>
+            <div class="top-nav">
+                <div class="top-nav-contents">
+                    <!--Top Nav Items-->
+                    <a href="#"><img src="./images/logo.png" id="logo-img" alt="Company Logo"></a>
+                    <a href="#" id="top-nav-products">PRODUCTS</a>
+                    <a id="top-nav-customers" href="">CUSTOMERS</a>
+                    <a id="top-nav-news-events" href="">NEWS + EVENTS</a>
+                    <a id="top-nav-about-us" href="">ABOUT US</a>
+                </div>
+            </div>
+            <div class="main">
+                <div class="slideshow-container">
+                    <div id="dot-container">
+                        <!--Dots corresponding to the slides-->
+                        <img class="dot-img" id="dot-1" src="./images/button.png" alt="Dot">
+                        <img class="dot-img ml--2" id="dot-2" src="./images/button.png" alt="Dot">
+                        <img class="dot-img ml--2" id="dot-3" src="./images/button.png" alt="Dot">
+                    </div>
+                    <div id="text-on-slides">
+                        <!--Section for content to be displayed on slides-->
+                            <p class="color-green" id="text-on-slides-heading">
+                                META CONSECTETUS
+                            </p>
+                            <div id="text-on-slides-content">
+                                Nulla Pariatur. Nulla Pariatur.
+                                <br>
+                                <div>Nulla Voluptatem Pariatur.</div>
+                            </div>
+                            <div class="learn-more-container grid-container">
+                                <div class="grid-item color-green grid-column-1" id="learn-more-text">
+                                    <b>LEARN MORE</b>
+                                </div>
+                                <div class="grid-item ml-44 grid-column-2">
+                                    <img src="./images/arrow.png">
+                                </div>
+                            </div>
+                    </div>
+                    <div class="slides fade" id="slide-1">
+                        <img class="slide-img" src="./images/banner_slider_01.jpg" alt="Slide Image">
+                    </div>
+                    <div class="slides fade" id="slide-2">
+                        <img class="slide-img" src="./images/banner_slider_02.jpg" alt="Slide Image">
+                    </div>
+                </div>
+                <!--Connected Lifestyle Section Starts-->
+                <div id="connected-lifestyle-parent-container">
+                    <div id="connected-lifestyle-container">
+                        <div class="heading color-green">
+                            THE CONNECTED LIFESTYLE
+                        </div>
+                        <div class="grid-container">
+                            <!--Section 1-->
+                            <div class="grid-item connected-lifestle-container-column grid-column-1">
+                                <div id="connected-lifestyle-content-1">
+                                    <div class="line-1">
+                                        Sed ut perspiciatis unde omnis iste natus error sit
+                                    </div>
+                                    <div  class="line-2">
+                                        voluptatem accusantuim doloremque laudantium,
+                                    </div>
+                                    <div class="line-3">
+                                        totam rem aperiam, eaque ipsa.
+                                    </div>
+                                </div>
+                                <div id="connected-lifestyle-content-2">
+                                    <div class="line-1">
+                                        Numquam eius modi tempora incidunt ut labore&nbsp; et
+                                    </div>
+                                    <div class="line-2">
+                                        dolore magnam aliquam quaerat voluptatem. Ut
+                                    </div>
+                                    <div class="line-3">
+                                        enim ad minima veniam, quis nostrum exercitatio-
+                                    </div>
+                                    <div class="line-4">
+                                        nem ullam corporis suscipit laboriosam, nisi ut
+                                    </div>
+                                    <div class="line-5">
+                                        aliquid ex ea commodi consequatur? Quis autem
+                                    </div>
+                                    <div class="line-6">
+                                        vel eum iure reprehenderit qui in ea voluptate velit
+                                    </div>
+                                    <div class="line-7">
+                                        esse quam nihil molestiae consequatur.
+                                    </div>
+                                </div>
+                                <div class="learn-more-container grid-container" id="learn-more-container-2">
+                                    <div class="grid-item color-green  grid-column-1" id="learn-more-text">
+                                        LEARN MORE
+                                    </div>
+                                    <div class="grid-item ml-45 mt-1 grid-column-2">
+                                        <img src="./images/arrow.png">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lifestyle-box" id="lifestyle-img-1">
+                                <!--Vertical Image for separtion-->
+                                <img class="lifestyle-box-img" src="./images/lifestyle_box_bg.jpg">
+                            </div>
+                            <!--Section 2-->
+                            <div class="grid-item connected-lifestle-container-column custom-connected-lifestle-container-column grid-column-2" id="connected-lifestyle-column-2">
+                                <div class="sub-heading" id="lorem-ipsum-heading">
+                                    LOREM IPSUM
+                                </div>
+                                <div class="grid-container">
+                                    <div class="grid-item grid-column-1">
+                                        <div>
+                                            <img class="lifestyle-img" src="./images/lifestyle_thmb_img01.png" alt="Lifestyle Image">
+                                        </div>
+                                        <div class="sub-heading sub-heading-2 color-green">
+                                            CONNECT
+                                        </div>
+                                        <p class="mt-8 connected-lifestyle-sub-content">
+                                            Sdolor doloremque of sece ndolemque dolo
+                                        </p>
+                                        <p class="mt--3 connected-lifestyle-sub-content">
+                                            Edolo aemque of dol doloremque services
+                                        </p>
+                                    </div>
+                                    <div class="lifestyle-box" id="lifestyle-img-2">
+                                        <img class="lifestyle-box-img" src="./images/lifestyle_box_bg.jpg">
+                                    </div>
+                                    <div class="grid-item ml-25 grid-column-2">
+                                        <div>
+                                            <img class="lifestyle-img" src="./images/lifestyle_thmb_img02.png" alt="Lifestyle Image">
+                                        </div>
+                                        <div class="sub-heading sub-heading-2 exp-discover-heading color-green">
+                                            EXPERIENCE
+                                        </div>
+                                        <p class="mt-8 connected-lifestyle-sub-content">
+                                            Sdremque, aemquexy netwdolore redolore
+                                        </p>
+                                        <p  class="mt--3 connected-lifestyle-sub-content">
+                                            Holorquey sdoloredol cremque & rloremque connectivity dolore doloremque
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lifestyle-box" id="lifestyle-img-3">
+                                <img class="lifestyle-box-img" src="./images/lifestyle_box_bg.jpg">
+                            </div>
+                            <!--Section 3-->
+                            <div class="grid-item connected-lifestle-container-column custom-connected-lifestle-container-column grid-column-3">
+                                <div class="sub-heading" id="lorem-ipsum-dolor-heading">
+                                    LOREM IPSUM DOLOR
+                                </div>
+                                <div class="grid-container">
+                                    <div class="grid-item ml-16 grid-column-1" id="lorem-ipsum-dolor-content-1">
+                                        <div>
+                                            <img class="lifestyle-img" src="./images/lifestyle_thmb_img03.png" alt="Lifestyle Image">
+                                        </div>
+                                        <div class="sub-heading sub-heading-2 exp-discover-heading color-green" >
+                                            DISCOVER
+                                        </div>
+                                        <p class="mt-8" id="discover-content-1" >
+                                            Udoloremque compos, doloremque, xzervice quality & doloredata
+                                        </p>
+                                        <p class="mt--3" id="discover-content-2" >
+                                            Hremque opportunities fdoloremque creation
+                                        </p>
+                                    </div>
+                                    <div class="lifestyle-box" id="lifestyle-img-4">
+                                        <img class="lifestyle-box-img" src="./images/lifestyle_box_bg.jpg">
+                                    </div>
+                                    <div class="grid-item ml-25 grid-column-2">
+                                        <div>
+                                            <img class="lifestyle-img" src="./images/lifestyle_thmb_img04.png" alt="Lifestyle Image">
+                                        </div>
+                                        <div class="sub-heading sub-heading-2 color-green" id="grow-heading" >
+                                            GROW
+                                        </div>
+                                        <p class="mt-8" id="grow-content-1">
+                                            Prdoloreure for the fdoloremque service doloremque
+                                        </p>
+                                        <p class="mt--3" id="grow-content-1">
+                                            Tdoloremque and service doloremque
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>   
+                    </div>
+                </div>
+                <!--Connected Lifestyle Section Ends-->
+                <!--Customer Details & News Section Starts-->
+                <div class="customer-news-container">
+                    <div class="grid-container">
+                        <div class="grid-item grid-column-1">
+                            <div class="heading color-green" id="our-customers-heading">
+                                OUR CUSTOMERS
+                            </div>
+                            <div id="customer-details">
+                                <!--About Customers-->
+                                <div class="customer-details-line" id="customer-details-line-1">
+                                    Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, aque
+                                </div>
+                                <div class="customer-details-line" id="customer-details-line-2">
+                                    ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                                </div>
+                                <div class="customer-details-line" id="customer-details-line-3">
+                                    voluptatem quia voluptas sit aspermatur aut odit aut fugit, sed &nbsp;quia consequuntur. &nbsp;&nbsp;&nbsp;&nbsp;<span class="color-green">learn more</span>
+                                </div>
+                            </div>
+                            <div class="grid-container customer-img">
+                                <div class="grid-item grid-column-1">
+                                    <img src="./images/custmr_logo01.png" alt="Customer Logo Image">
+                                </div>
+                                <div class="grid-item ml--22 grid-column-2 customer-img-column-2">
+                                    <img src="./images/custmr_logo02.png" alt="Customer Logo Image">
+                                </div>
+                                <div class="grid-item ml--22 grid-column-3 customer-img-column-3">
+                                    <img src="./images/custmr_logo03.png" alt="Customer Logo Image">
+                                </div>
+                            </div>
+                            <div class="grid-container customer-img mt--5 pt-2">
+                                <div class="grid-item grid-column-1">
+                                    <img src="./images/custmr_logo04.png" alt="Customer Logo Image">
+                                </div>
+                                <div class="grid-item ml--22 grid-column-2 customer-img-column-2">
+                                    <img src="./images/custmr_logo05.png" alt="Customer Logo Image">
+                                </div>
+                                <div class="grid-item ml--22 grid-column-3 customer-img-column-3">
+                                    <img src="./images/custmr_logo06.png" alt="Customer Logo Image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item ml-61 grid-column-2">
+                            <!--News Sections-->
+                            <div class="heading color-green" id="news-main-heading">
+                                IN THE NEWS
+                            </div>
+                            <div class="news-heading color-green">
+                                Lorem ipsum dolor sit amet, consectetur adipis
+                            </div>
+                            <time class="news-date" datetime="2011-07-01">
+                                July 1, 2011
+                            </time>
+                            <div class="news-content" id="news-content-1">
+                                <div class="news-line-1">
+                                    Cusantium doloremque laudantium, totam rem aperiam,
+                                </div>
+                                <div class="news-line-2">
+                                    eaque ipsa quae ab illo inventore veritatis et quasi archi-
+                                </div>
+                                <div class="news-line-3">
+                                    tecto beatae vitae dicta sunt explicabo enim ipsam volup-
+                                </div>
+                                <div class="news-line-4">
+                                    tatem quia voluptas sit asper...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="color-green">continue reading</span>
+                                </div>
+                            </div>
+                            <div class="hr-div"></div>
+                            <div class="news-heading color-green">
+                                Corem ipsum dolor sit amet, consectetur adipis
+                            </div>
+                            <time class="news-date" datetime="2011-06-30">
+                                June 30, 2011
+                            </time>
+                            <div class="news-content" id="news-content-2">
+                                <div class="news-line-1">
+                                    Cusantium doloremque laudantium, totam rem aperiam,
+                                </div>
+                                <div class="news-line-2">
+                                    eaque ipsa quae ab illo inventore veritatis et quasi
+                                </div>
+                                <div class="news-line-3">
+                                    architecto beatae vitae dicta sunt explicabo enim ipsam
+                                </div>
+                                <div class="news-line-4">
+                                    voluptatem quia voluptas sit asper...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="color-green">continue reading</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Customer Details & News Section End-->
+                <!--Media Section Starts-->
+                <div class="media-parent-container">
+                    <div class="grid-container media-container">
+                        <div class="grid-item grid-column-1" id="media-photos-container">
+                            <div class="heading media-heading color-green">
+                                MEDIA RESOURCES - PHOTOS
+                            </div>
+                            <!--Thumbnails for Images-->
+                            <div class="grid-container ml--6 mt-18">
+                                <div class="grid-item grid-column-1">
+                                    <img id="modal-image-thumb-1" class="media-img" src="./images/photo-thumbnail.png" alt="Media Image Thumbnail">
+                                </div>
+                                <div class="grid-item ml--15 grid-column-2 modal-thumb-container">
+                                    <img id="modal-image-thumb-2" class="media-img" src="./images/photo-thumbnail.png" alt="Media Image Thumbnail">
+                                </div>
+                            </div>
+                            <div class="grid-container ml--6 mt-7">
+                                <div class="grid-item grid-column-1">
+                                    <img id="modal-image-thumb-3" class="media-img" src="./images/photo-thumbnail.png" alt="Media Image Thumbnail">
+                                </div>
+                                <div class="grid-item ml--15 grid-column-2 modal-thumb-container">
+                                    <img id="modal-image-thumb-4" class="media-img" src="./images/photo-thumbnail.png" alt="Media Image Thumbnail">
+                                </div>
+                            </div>
+                            <div class="media-content">
+                                <div class="line-1">
+                                    Cusantium doloremque laudantium, totam rem aperiam, eaque, ipsa 
+                                </div>
+                                <div class="line-2">
+                                    quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
+                                </div>
+                                <div class="line-3">
+                                    sunt explicabo enim ipsam voluptatem quia <span class="color-green">continue reading</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item ml-34 grid-column-2"> 
+                            <div class="heading media-heading color-green">
+                                MEDIA RESOURCES - VIDEOS
+                            </div>
+                            <!--Image Thumbnails for Videos-->
+                            <div class="grid-container ml--6 mt-18">
+                                <div class="grid-item grid-column-1">
+                                    <img id="modal-video-thumb-1" class="media-video" src="./images/video-thumbnail.png" alt="Media Video Thumbnail">
+                                </div>
+                                <div class="grid-item ml--3 grid-column-2 modal-thumb-container">
+                                    <img id="modal-video-thumb-2" class="media-video  ml--5" src="./images/video-thumbnail.png" alt="Media Video Thumbnail">
+                                </div>
+                            </div>
+                            <div class="grid-container ml--6 mt-7">
+                                <div class="grid-item grid-column-1">
+                                    <img id="modal-video-thumb-3" class="media-video" src="./images/video-thumbnail.png" alt="Media Video Thumbnail">
+                                </div>
+                                <div class="grid-item ml--3 grid-column-2 modal-thumb-container">
+                                    <img id="modal-video-thumb-4" class="media-video  ml--5" src="./images/video-thumbnail.png" alt="Media Video Thumbnail">
+                                </div>
+                            </div>
+                            <div class="media-content pl-2">
+                                <div class="line-1">
+                                    Cusantium doloremque laudantium, totam rem aperiam, eaque, ipsa 
+                                </div>
+                                <div class="line-2">
+                                    quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
+                                </div>
+                                <div class="line-3">
+                                    sunt explicabo enim ipsam voluptatem quia <span class="color-green">continue reading</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Media Section End-->
+                <!--Modal (Pop-up) Section Starts-->
+                <div class="modal-box-container">
+                    <div id="modalBoxForPhoto" class="modal">
+                        <div class="close"><img src="./images/close.png" alt="Close Button Image"></div>
+                        <div class="prev-button prev-next-button" id="prev-img"><img src="./images/prev.png" alt="Previous Button"></div>
+                        <div class="next-button prev-next-button" id="next-img"><img src="./images/next.png" alt="Next Button"></div>
+                        <div class="modal-content imgModal">
+                            <div class="modal-title color-green">THE TITLE FOR THE IMAGE WILL GO HERE</div>
+                            <div class="modal-img-container">
+                                <!--Have Used Different Photos to show the working of next / previous buttons-->
+                                <img id="modal-img-1" src="./images/full-photo.png" alt="Media Image">
+                                <img id="modal-img-2" src="./images/full-photo-01.jpg" alt="Media Image">
+                                <img id="modal-img-3" src="./images/full-photo-02.jpg" alt="Media Image">
+                                <img id="modal-img-4" src="./images/full-photo-03.jpg" alt="Media Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="modalBoxForVideo" class="modal">
+                        <div class="close"><img src="./images/close.png" alt="Close Button Image"></div>
+                        <div class="prev-button prev-next-button" id="prev-video"><img src="./images/prev.png" alt="Previous Button"></div>
+                        <div class="next-button prev-next-button" id="next-video"><img src="./images/next.png" alt="Next Button"></div>
+                        <div class="modal-content videoModal">
+                            <div class="modal-title color-green">THE TITLE OF THE VIDEO WILL GO HERE</div>
+                            <div class="modal-video-container">
+                                <!--iframes for playing youtube videos-->
+                                <iframe id="modal-video-1" src="https://www.youtube.com/embed/OfkdngnYQyw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe id="modal-video-2" src="https://www.youtube.com/embed/COJbdpf_tqk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe id="modal-video-3" src="https://www.youtube.com/embed/_uQrJ0TkZlc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe id="modal-video-4" src="https://www.youtube.com/embed/mheWmt8M-_8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Modal (Pop-up) Section End-->
+            </div>
+        </div>
+        <footer>
+            <!--Bottom Navbar Section Starts-->
+            <div class="bottom-nav">
+                <div class="bottom-nav-contents">
+                    <div class="grid-item">
+                        <!--Nav Items-->
+                        <a href="" class="bottom-nav-link">HOME</a>
+                        <a href="" class="bottom-nav-link">PRODUCTS</a>
+                        <a href="" class="bottom-nav-link">CUSTOMERS</a>
+                        <a href="" id="bottom-nav-news-link">NEWS + EVENTS</a>
+                        <a href="" class="bottom-nav-link">ABOUT US</a>
+                        <span id="copyright">© 2011 Company Name. All rights reserved.</span>
+                    </div>
+                </div>
+            </div>
+            <!--Bottom Navbar Section End-->
+            <!--Link to jQuery CDN-->
+            <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+            <!--Link to custom js-->
+            <script src="home.js"></script>
+        </footer>
+    </body>
+</html>

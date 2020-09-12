@@ -1,0 +1,582 @@
+body{
+    color: #666666;
+    font-family: "Roboto", sans-serif;  /*Roboto Font*/
+    font-size: 10px;
+    margin: 0px auto;
+}
+#main-background-container{
+    /*container for main background image*/
+    left: 0;
+    margin: auto;
+    opacity: .8;
+    position: absolute;
+    right: 0;
+    width: 1007px;
+    z-index: -1;
+}
+.grid-container{
+    /*CSS for Grid Layout*/
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: auto auto auto;
+    -ms-grid-columns: auto minmax(min-content, 1fr);
+    -ms-grid-rows: auto minmax(min-content, 1fr) auto;
+}
+/*CSS for Top Navbar*/
+.top-nav{
+    background-image: url("./images/header_bg01.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    box-shadow: 0px 1px 20px #f4f4f4;
+    height: 81.15px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    width: 1007px;
+    z-index: 25;
+}
+.top-nav a{
+    color: #666666;
+    float: left;
+    font-size: 11px;
+    font-weight: bolder;
+    letter-spacing: 1.95px;
+    text-decoration: none;
+}
+.top-nav-contents{
+    margin: auto;
+    padding-top: 18px;
+    padding-left: 13px;
+    width: 769px;
+}
+#logo-img{
+    width: 206px;
+    height: 50px;
+    margin-top: -2px;
+}
+#top-nav-products{
+    margin: 19px 2px 0px 58px;
+    letter-spacing: 1.7px;
+}
+#top-nav-customers{
+    margin: 19px 2px 0px 44px;
+    letter-spacing: 1.7px;
+}
+#top-nav-news-events{
+    margin: 19px 0px 0px 41px;
+    letter-spacing: 1.5px;
+}
+#top-nav-about-us{
+    margin: 19px 2px 0px 45px;
+    letter-spacing: 1.5px;
+}
+.main{
+    margin: auto;
+    width: 769px;
+}
+.slideshow-container{
+    max-width: 100%;
+    margin-bottom: 17px;
+    padding-top: 70px;
+}
+#dot-container{
+    margin: 293px auto auto 727px;
+    position: absolute;
+}
+.dot-img{
+    width: 10px;
+    height: 9px;
+    margin-right: 2px;
+}
+#text-on-slides{
+    margin: 67px auto auto 531px;
+    position: absolute;
+}
+#text-on-slides-heading{
+    font-size: 19px;
+    font-weight: bolder;
+    letter-spacing: 1.75px;
+}
+#text-on-slides-content{
+    font-size: 15px;
+    letter-spacing: -.15px;
+    padding-top: 4px;
+}
+#text-on-slides-content > div{
+    letter-spacing: -0.25px;
+    padding-top: 1px;
+}
+.learn-more-container{
+    background: white;
+    border: 1px solid;
+    height: 17px;
+    margin: 70px 0px 0px 2px;
+    padding: 6px 0px 0px 11px;
+    width: 128px;
+}
+#learn-more-text{
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.slides{
+    display: none;
+}
+.fade{
+    /*Fade animations for slides*/
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.slide-img{
+    vertical-align: middle;
+    width: 100%;
+}
+/*CSS Connected-Lifestyle Section*/
+#connected-lifestyle-parent-container{
+    background-color: #f4f4f4;
+    border: 1px solid #e4e4e4;
+    box-shadow: 0px 1px 20px #f4f4f4;
+    height: 326px;
+    margin-bottom: 27px;
+}
+#connected-lifestyle-container{
+    padding: 20px 24px 0px 25px;
+}
+.connected-lifestle-container-column{
+    line-height: 15px;
+    padding-top: 7px;
+    width: 221px;
+}
+.custom-connected-lifestle-container-column{
+    padding-top: 10px;
+}
+#connected-lifestyle-content-1{
+    margin-top: 10.5px;
+}
+#connected-lifestyle-content-1 .line-1{
+    letter-spacing: -.1px;
+}
+#connected-lifestyle-content-1 .line-2{
+    letter-spacing: -.2px;
+}
+#connected-lifestyle-content-1 .line-3{
+    letter-spacing: -.15px;
+}
+#connected-lifestyle-content-2{
+    margin-top: 14.5px;
+}
+#connected-lifestyle-content-2 .line-1{
+    letter-spacing: -.2px;
+}
+#connected-lifestyle-content-2 .line-2{
+    letter-spacing: -.16px;
+}
+#connected-lifestyle-content-2 .line-3{
+    letter-spacing: -.16px;
+}
+#connected-lifestyle-content-2 .line-4{
+    letter-spacing: -.16px;
+}
+#connected-lifestyle-content-2 .line-5{
+    letter-spacing: -.11px;
+}
+#connected-lifestyle-content-2 .line-6{
+    letter-spacing: -.05px;
+}
+#connected-lifestyle-content-2 .line-7{
+    letter-spacing: -.15px;
+}
+#learn-more-container-2{
+    margin: 63px 0px 0px 0px;
+    padding-top: 4px;
+    padding-bottom: 1px;
+}
+.lifestyle-box{
+    max-width: 1px;
+    padding-top: 19px;
+}
+.lifestyle-box-img{
+    border-right: 1px solid #dddddd;
+    height: 244px;
+    width: 0px;
+}
+.lifestyle-img{
+    height: 108px;
+    margin: -1px 0px 0px -7px;
+    padding-top: 3px;
+    width: 110px;
+}
+#lifestyle-img-1{
+    position: absolute;
+    margin-left: 222px;
+}
+#lifestyle-img-2{
+    position: absolute;
+    margin: -10px 0px 0px 110.5px;
+}
+#lifestyle-img-2 > img{
+    height: 223px;
+}
+#lifestyle-img-3{
+    margin-left: 478px;
+    position: absolute;
+}
+#lifestyle-img-4{
+    margin-left: 127.5px;
+    margin-top: -10px;
+    position: absolute;
+}
+#lifestyle-img-4 > img{
+    height: 219px;
+}
+#lorem-ipsum-heading{
+    letter-spacing: -0.1px;
+}
+#lorem-ipsum-dolor-heading{
+    letter-spacing: 0.1px;
+    margin-left: 16px;
+}
+.connected-lifestyle-sub-content{
+    letter-spacing: -.15px;
+}
+.exp-discover-heading{
+    letter-spacing: .2px;
+}
+#discover-content-1{
+    letter-spacing: -0.15px;
+}
+#discover-content-2{
+    letter-spacing: -0.2px;
+}
+#grow-heading{
+    letter-spacing: .5px;
+}
+#grow-content-1{
+    letter-spacing: -0.15px;
+}
+#grow-content-2{
+    letter-spacing: -0.1px;
+}
+/* CSS for Customer Details Section*/
+#our-customers-heading{
+    letter-spacing: 0.5px;
+}
+#customer-details{
+    padding-top: 16px;
+    padding-left: 1px;
+    width: 456px;
+}
+.customer-details-line{
+    letter-spacing: -0.15px;
+    line-height: 16px;
+}
+#customer-details-line-2{
+    letter-spacing: -.1px;
+}
+#customer-details-line-3{
+    letter-spacing: -.21px;
+}
+.customer-img{
+    margin-left: -6px;
+    padding-top: 12px;
+}
+.customer-img > div > img{
+    height: 95px;
+    width: 146px;
+}
+/*CSS for News Section*/
+#news-main-heading{
+    letter-spacing: 0.2px;
+}
+.news-heading{
+    font-weight: bolder;
+    letter-spacing: 0.2px;
+    padding-top: 18px;
+}
+.news-date{
+    font-size: 9px;
+    font-weight: bolder;
+    letter-spacing: 0.7px;
+    padding-top: 4px;
+}
+.hr-div{
+    border-bottom: 0.5px solid lightgray;
+    margin: 19px auto 4px auto;
+}
+.news-content{
+    line-height: 16px;
+    padding-top: 11px;
+}
+#news-content-1 .news-line-1{
+    letter-spacing: -.16px;
+}
+#news-content-1 .news-line-2{
+    letter-spacing: -.07px;
+}
+#news-content-1 .news-line-3{
+    letter-spacing: -.12px;
+}
+#news-content-1 .news-line-4{
+    letter-spacing: -.15px;
+}
+#news-content-2{
+    padding-top: 11px;
+}
+#news-content-2 .news-line-1{
+    letter-spacing: -.15px;
+}
+#news-content-2 .news-line-2{
+    letter-spacing: -.04px;
+}
+#news-content-2 .news-line-3{
+    letter-spacing: -.12px;
+}
+#news-content-2 .news-line-4{
+    letter-spacing: -.15px;
+}
+/*CSS for Media Section*/
+.media-parent-container{
+    background-color: #f4f4f4;
+    border: 0.5px solid lightgray;
+    margin: 26.5px 0px 24px;
+    padding-bottom: 14px;
+}
+.media-container{
+    margin-left: 40px;
+    margin-top: 14px;
+}
+#media-photos-container{
+    width: 359px;
+}
+.media-content{
+    line-height: 16px;
+    margin-top: 7.5px;
+    padding-right: 45px;
+}
+.media-content .line-1{
+    letter-spacing: -.15px;
+}
+.media-content .line-2{
+    letter-spacing: -.08px;
+}
+.media-content .line-3{
+    letter-spacing: -.16px;
+}
+.media-img, .media-video{
+    height: 95px;
+    width: 147px;
+}
+/*CSS for Modal Box (Pop-up)*/
+.modal {
+    background-color: white;
+    display: none;
+    height: 339px;
+    margin-left: 125px;
+    position: absolute;
+    top: 488px;
+    width: 519px;
+    z-index: 99;
+}
+#modal-background{
+    background-color: #595959;
+    display: none;
+    height: 1501px;
+    opacity: 0.70;
+    position: absolute;
+    z-index: 50;
+    width: 100%;
+}
+.modal-title{
+    font-size: 12px;
+    letter-spacing: 0.55px;
+    margin-left: 7px;
+    margin-top: 8.5px;
+}
+.modal-img-container{
+    margin: 8px 0px 8px 6px;
+}
+.modal-video-container{
+    margin: 8px 0px 8px 6px;
+}
+/* The Close Button */
+.close {
+    margin-left: 506px;
+    margin-top: -13px;
+    position: absolute;
+}
+.close:hover, .close:focus {
+    cursor: pointer;
+}
+.close > img{
+    height: 23px;
+    width: 23px;
+}
+.modal-img-container > img, .modal-video-container > iframe{
+    display: none;
+    height: 300px;
+    width: 505px;
+}
+.prev-next-button{
+    margin-top: 143px;
+    position: absolute;
+}
+.prev-next-button > img{
+    height: 38px;
+    width: 38px;
+}
+.prev-button{
+    margin-left: -83px;
+}
+.next-button{
+    margin-left: 565px;
+}
+/*CSS for Bottom Navbar*/
+.bottom-nav{
+    background-image: url("./images/footer_bg.jpg");
+    height: 79px;
+    margin: auto;
+    width: 1007px;
+}
+.bottom-nav a{
+    color: #dddbdb;
+    float: left;
+    font-size: 9px;
+    font-weight: bold;
+    margin-right: 16px; 
+    margin-top: 1px;
+    text-decoration: none;
+}
+.bottom-nav-contents > div{
+    padding: 14px 0px 0px 119px;
+}
+.bottom-nav-link{
+    letter-spacing: 1.1px;
+}
+#bottom-nav-news-link{
+    letter-spacing: 0.9px;
+}
+#copyright{
+    /*Copyright text in bottom navbar*/
+    color: #c7c4c3;
+    float: right;
+    font-size: 9px;
+    padding-right: 117px;
+    padding-top: 1px;
+}  
+/*Common CSS*/
+.heading{
+    border-bottom: 1.5px solid #0e8c49;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    padding-bottom: 3px;
+}
+.media-heading{  /*media section heading*/
+    letter-spacing: 0.6px;
+    width: 294px;
+}
+.sub-heading{
+    color: #b4b4b4;
+    font-size: 13px;
+    padding-top: 7px;
+}
+.sub-heading-2{
+    padding-top: 2px;
+}
+.color-green{
+    color: #00853F; /*color for green fonts*/
+}
+.pt-2{
+    padding-top: 2px;
+}
+.pl-2{
+    padding-left: 2px;
+}
+.mt--5{
+    margin-top: -5px;
+}
+.mt--3{
+    margin-top: -3px;
+}
+.mt-1{
+    margin-top: 1px;
+}
+.mt-7{
+    margin-top: 7px;
+}
+.mt-8{
+    margin-top: 8px;
+}
+.mt-18{
+    margin-top: 18px;
+}
+.ml--22{
+    margin-left: -22px;
+}
+.ml--15{
+    margin-left: -15px;
+}
+.ml--6{
+    margin-left: -6px;
+}
+.ml--3{
+    margin-left: -3px;
+}
+.ml--2{
+    margin-left: -2px;
+}
+.ml-16{
+    margin-left: 16px;
+}
+.ml-25{
+    margin-left: 25px;
+}
+.ml-34{
+    margin-left: 34px;
+}
+.ml-44{
+    margin-left: 44px;
+}
+.ml-45{
+    margin-left: 45px;
+}
+.ml-61{
+    margin-left: 61px;
+}
+
+/*CSS for IE9+*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .grid-column-1{
+        -ms-grid-column: 1;
+    }
+    .grid-column-2{
+        -ms-grid-column: 2;
+    }
+    .grid-column-3{
+        -ms-grid-column: 3;
+    }
+    #connected-lifestyle-column-2{ 
+        margin-left: 18px;
+    }
+    #lorem-ipsum-dolor-heading{
+        margin-left: 0px;
+    }
+    #lorem-ipsum-dolor-content-1{
+        margin-left: 0px;
+    }
+    #lifestyle-img-4{
+        margin-left: 111.5px;
+    }
+    .customer-img-column-2{
+        margin-left: 3px;
+    }
+    .customer-img-column-3{
+        position: absolute;
+        margin-left: -166px;
+    }
+    .modal-thumb-container{
+        margin-left: 13px;
+    }
+}
